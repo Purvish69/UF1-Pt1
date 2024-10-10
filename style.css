@@ -1,0 +1,65 @@
+#graella {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+
+    
+
+
+}
+
+
+
+#graella .info {
+    background-color: rgb(232, 192, 245);
+    border: 2px solid black;
+
+}
+
+#info1 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#infoH2 {
+   
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+#graella #info2 {
+    background-color: lightcoral;
+    color: blue;
+}
+
+#graella .pintaH2 {
+    background-color: rgb(185, 243, 245);
+}
+
+#info3 {
+    
+  
+    text-decoration: underline;
+}
+
+#info4 ::first-letter {
+   
+    font-size: 200%;
+    font-weight: bold;
+    color: #8A2BE2;
+}
+
+.cambiarFont {
+    font-size: 40px;
+}
+
+.modificarFontP {
+    font: 20px bold;
+
+}
+
+#info5 {
+    letter-spacing: 10px;
+    text-align: center;
+}
