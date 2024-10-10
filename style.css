@@ -6,9 +6,6 @@
     "a a b"
     "c d d"
     "e e e";
-
-    
-
 }
 
  /* info1*/
@@ -30,13 +27,12 @@
 #infoH2 {
     grid-area: b;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    
+    text-align: center; 
 }
+
 .alinearElParrafo{
     text-align: center;
 }
-
 
 #graella #info2 {
     background-color: lightcoral;
@@ -81,7 +77,6 @@
 
 .modificarFontP {
     font: 20px bold;
-
 }
 
  /* info5*/
