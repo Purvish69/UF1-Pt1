@@ -1,15 +1,20 @@
 #graella {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-    
+    grid-gap: 20px;
+    grid-template-areas: 
+    "a a b"
+    "c d d"
+    "e e e";
 
     
-
 
 }
 
-
+ /* info1*/
+#info1 {
+    grid-area: a;
+}
 
 #graella .info {
     background-color: rgb(232, 192, 245);
@@ -21,9 +26,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+ /* info2   */
 #infoH2 {
-   
+    grid-area: b;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+.alinearElParrafo{
     text-align: center;
 }
 
@@ -37,15 +47,30 @@
     background-color: rgb(185, 243, 245);
 }
 
+#info2 h2:hover {
+    color:  red;
+    background-color: lightgoldenrodyellow;
+    font-family: italic;
+}
+
+#info2 p:hover {
+    color: darkblue;
+    background-color: lightgray;
+    font-family: cursive;
+}
+
+ /* info3*/
 #info3 {
-    
-  
+    grid-area: c;
     text-decoration: underline;
 }
 
+ /* info4*/
+#info4 {
+    grid-area: d;
+}
 #info4 ::first-letter {
-   
-    font-size: 200%;
+    font-size: 50px;
     font-weight: bold;
     color: #8A2BE2;
 }
@@ -59,7 +84,9 @@
 
 }
 
+ /* info5*/
 #info5 {
+    grid-area: e;
     letter-spacing: 10px;
     text-align: center;
 }
